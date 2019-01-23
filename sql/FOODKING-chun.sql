@@ -5,7 +5,11 @@ CREATE TABLE fk_join(
 	content  VARCHAR(2000)   	                  #文字内容
 ); 
 
+<<<<<<< HEAD
 	/**关于本公司-图片11**/
+=======
+	/**关于本公司-图片**/
+>>>>>>> bdd633b72e8cf09f308bd533bd592190f86d29ab
 CREATE TABLE fk_join_pic(
 	did INT PRIMARY KEY AUTO_INCREMENT,       #编号
 	family_uid INT,                           #页面编号
